@@ -1,0 +1,177 @@
+@font-face {
+	font-family: myFont;
+	src: url(font/RubikMoonrocks-Regular.ttf);
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+	background: hotpink;
+	box-sizing: border-box;
+}
+
+body{
+	background: powderblue;
+}
+
+
+.main-container{
+	height: auto;
+	width: 90%;
+	background: navajowhite;
+	margin: auto;
+}
+
+header{
+	height: 200px;
+	width: 100%;
+	background: navajowhite;
+	border-bottom: 1px solid;
+}
+
+.logo{
+	height: 100%;
+	width: 20%;
+	float: left;
+	border-right: 1px solid;
+}
+
+.banner{
+	height: 100%;
+	width: 60%;
+	float: left;
+}
+
+.icon-search-ads{
+	height: 100%;
+	width: 20%;
+	float: left;
+	border-left: 1px solid;
+}
+
+.icon{
+	height: 25%;
+	width: 100%;
+}
+
+.search{
+	height: 25%;
+	width: 100%;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+.ads{
+	height: 50%;
+	width: 100%;
+}
+
+nav{
+	height: 40px;
+	width: 100%;
+	background: hotpink;
+	border-bottom: 1px solid;
+}
+
+.container{
+	height: 300px;
+	width: 100%;
+	background: navajowhite;
+	border-bottom: 1px solid;
+}
+
+main{
+	height: 100%;
+	width: 70%;
+	border-right: 1px solid;
+	float: left;
+}
+
+article{
+	height: 50%;
+	width: 100%;
+}
+
+article h1{
+	text-align: center;
+	background: palegreen;
+	color: red;
+	text-transform: uppercase;
+	text-decoration: underline;
+	letter-spacing: 6px;
+	font-size: larger;
+	font-weight: bolds;
+	height: 25px;
+	width: 300px;
+	margin: auto;
+	font-family: 'Indie Flower', cursive;
+}
+
+article p{
+	text-indent: 40px;
+	font-size: large;
+	font-family: 'Fjalla One', sans-serif;;
+	font-weight: 500;
+	line-height: 20px;
+	word-spacing: 1px;
+	text-align: justify;
+	padding: 6px;
+	font-family: 'Gulzar', serif;
+}
+
+.image-gallery{
+	height: 50%;
+	width: 100%;
+	border-top: 1px solid;
+}
+
+.image-gallery p{
+	font-family: myFont;
+	text-align: justify;
+	padding: 10px;
+}
+
+aside{
+	height: 100%;
+	width: 30%;
+	float: left;
+}
+
+.news{
+	height: 40%;
+	width: 100%;
+	border-bottom: 1px solid;
+}
+
+.notic{
+	height: 60%;
+	width: 100%;
+}
+
+.big-footer{
+	height: 150px;
+	width: 100%;
+	background: navajowhite;
+	border-bottom: 1px solid;
+}
+
+.contact{
+	height: 100%;
+	width: 50%;
+	border-right: 1px solid;
+	float: left;
+}
+
+.maps{
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+footer{
+	height: 100px;
+	width: 100%;
+	background: hotpink;
+	border-bottom: 1px solid;
+}
